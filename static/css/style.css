@@ -1,0 +1,128 @@
+* {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.logo>h1 {
+  color: #ffe600;
+}
+
+.nav-link:hover {
+  color: #ffe600;
+}
+
+.navbar {
+  background-color: #1e1e1e;
+}
+
+/* hero section styling */
+#home {
+  height: 65vh;
+}
+
+.hero-text {
+  margin: 50px 0 60px 0;
+}
+
+.hero-text>h1 {
+  font-weight: bold;
+  padding-bottom: 20px;
+  letter-spacing: 0.3em;
+}
+
+.hero-text .special-word {
+  color: #ffe600;
+}
+
+.cta-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 2px solid white;
+  color: white;
+}
+
+.cta-link:hover {
+  border: 2px solid #ffe600;
+  background-color: #ffe600;
+  color: black;
+  transition: 0.4s ease;
+}
+
+/* about section styling */
+#about>.container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-top: 60px;
+  width: 100%;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 300px;
+  filter: brightness(75%);
+}
+
+.about-text {
+  padding: 20px;
+  box-shadow: 0 0.3rem 1rem #ffe60042;
+}
+
+.skills {
+  border: 1px solid #ffe600;
+  margin-top: 30px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.skills img {
+  width: 250px;
+}
+
+/* projects section style */
+#projects>.container {
+  margin-top: 30px;
+  padding-top: 60px;
+}
+
+.tech-stack {
+  border: 1px solid #ffe600;
+  margin-top: 30px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.card-body>h5>a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-body>h5>a:hover {
+  text-decoration: none;
+  color: #ffe600;
+}
+
+.card {
+  box-shadow: 0 0.3rem 1rem #ffe60042;
+}
+
+.cursor {
+  z-index: 999;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  pointer-events: none;
+  display: none;
+}
